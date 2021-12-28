@@ -1,0 +1,55 @@
+.back_body{
+  background-color: cadetblue;
+}
+/************Home***********/
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.card_index{ width: 700px;
+  height: 200px;
+  margin: 50px auto;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;}
+/**************Contact*************/
+.contactPage {
+    width: 650px;
+    height: 400px;
+    margin: 50px 50px;
+    margin-left: 330px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .contactPage > * {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #email {
+    font-weight: bold;
+    color: teal;
+  }
+/*******************Service*************/
+.services-container {
+    display: flex;
+  }
+  #service-card {
+    width: 300px;
+    height: 900px;
+    margin: 50px 50px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  #service-card h1 {
+    text-align: center;
+  }
+  #service-card p {
+    padding-top: 30px;
+    text-align: justify;
+  }
+ 
